@@ -11301,9 +11301,10 @@ button.owl-next {
     /* slider banner */
     
 /* service */
-.service_card{
-  background-color: #e6e6e7;
-}
+    .w3l-index3{
+      background-color: #e6e6e7;
+      border-radius: 60px 1px 60px 1px;
+    }
     .w3l-index3 h3.my-title {
       max-width: 724px;
       margin-left: auto;
@@ -11340,7 +11341,7 @@ button.owl-next {
       grid-template-columns: 1fr;
       align-items: center; }
     
-    @media (max-width: 992px) {
+    @media (max-width: 892px) {
       .w3l-index3 .features-with-17-top_sur {
         display: grid;
         grid-template-columns: 1fr; }
@@ -11348,6 +11349,8 @@ button.owl-next {
         margin-right: 20px; }
       .w3l-index3 .features-with-17_sur h6 {
         margin-top: 0px; } }
+
+        
     
     @media (max-width: 480px) {
       .w3l-index3 .features-with-17_sur h2 {
