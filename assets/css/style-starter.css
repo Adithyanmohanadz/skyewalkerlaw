@@ -10492,7 +10492,7 @@ span.text {
   .w3l-banner ul.follow-social {
     bottom: 2%; } }
 
-@media (max-width: 737px) {
+@media (max-width: 1080px) {
   .w3l-banner ul.follow-social {
     position: static;
     margin-top: 30px; }
@@ -11299,9 +11299,10 @@ button.owl-next {
   .w3l-main-slider .banner-view {
     min-height: 380px; } }
     /* slider banner */
+    
 /* service */
 .service_card{
-  background-color: var(--primary-light);
+  background-color: #e6e6e7;
 }
     .w3l-index3 h3.my-title {
       max-width: 724px;
@@ -11323,7 +11324,7 @@ button.owl-next {
     
     .w3l-index3 .features-with-17-left1 span {
       font-size: 29px;
-      color: var(--gray);
+      color: var(--secondary-color);
       font-weight: 600;
       margin-bottom: 12px;
       display: inline-block; }
@@ -11411,13 +11412,16 @@ ol.w3l-right li {
   color: var(--heading-color);
   position: relative; }
 
-ol.w3l-right {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-column-gap: 40px;
-  grid-row-gap: 10px;
-  -webkit-padding-start: 20px;
-          padding-inline-start: 20px; }
+@media (min-width: 321px) {
+  ol.w3l-right {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 40px;
+    grid-row-gap: 10px;
+    -webkit-padding-start: 20px;
+            padding-inline-start: 20px; }
+}
+
 
 ol.w3l-right li:before {
   content: "";
@@ -11441,6 +11445,18 @@ ol.w3l-right li:before {
     box-shadow: 0 0 0 0 rgba(255, 102, 138, 0.15), 0 0 0 10px rgba(255, 102, 138, 0.15), 0 0 0 20px rgba(255, 102, 138, 0.15); }
   100% {
     box-shadow: 0 0 0 10px rgba(255, 102, 138, 0.15), 0 0 0 20px rgba(255, 102, 138, 0.15), 0 0 0 40px rgba(255, 102, 138, 0); } }
+
+
+@media (max-width: 320px) {
+  .w3l-right {
+    display: grid;
+    /* grid-template-columns: 1fr 1fr; */
+    grid-column-gap: 40px;
+    grid-row-gap: 10px;
+    -webkit-padding-start: 20px;
+            padding-inline-start: 20px; }
+}
+
 
 /*-- //homeblock2 --*/
 
@@ -11539,7 +11555,7 @@ ol.w3l-right li:before {
 
 /* adoutsection  three block*/
 .w3l-content-4 {
-  background-color: var(--bg-lightgrey);
+  background-color: #e6e6e7;       
 }
 
 .cont-ser-info-inn {
@@ -11688,5 +11704,11 @@ ol.w3l-right li:before {
     line-height: 45px;
   }
 }
+/* read more arrow */
+.ms-1 {
+  margin-left: 0.25rem !important;
+  
+}
+/* //read more arrow */
 
 /*--//team--*/
