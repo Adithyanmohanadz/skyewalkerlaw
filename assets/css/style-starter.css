@@ -10514,7 +10514,15 @@ span.text {
     margin-bottom: 0px; } }
 
 .w3l-homeblock1 {
-  background: var(--bg-lightgrey); }
+  background: var(--bg-color);
+  }
+  .w3l-homeblock1 img{
+    height: 58%;
+    
+  position: absolute;
+  background-repeat: no-repeat;
+  opacity:0.1;
+  }
   .w3l-homeblock1 ul.service-list li {
     display: block;
     margin-bottom: 15px; }
@@ -11301,6 +11309,9 @@ button.owl-next {
     min-height: 380px; } }
     /* slider banner */
 /* service */
+.service_card{
+  background-color: var(--primary-light);
+}
     .w3l-index3 h3.my-title {
       max-width: 724px;
       margin-left: auto;
@@ -11321,7 +11332,7 @@ button.owl-next {
     
     .w3l-index3 .features-with-17-left1 span {
       font-size: 29px;
-      color: #ddd;
+      color: var(--gray);
       font-weight: 600;
       margin-bottom: 12px;
       display: inline-block; }
@@ -11483,9 +11494,9 @@ ol.w3l-right li:before {
   z-index: 9; }
 
 .w3l-news-sec .news-img:hover .title-wrap {
-  transform: translateY(-60px);
+  transform: translateY(-35px);
   transition: .3s ease;
-  background-color: var(--primary-light);
+  background-color: var(--secondary-color);
   -webkit-transition: .3s ease;
   -moz-transition: .3s ease;
   -ms-transition: .3s ease;
@@ -11573,7 +11584,7 @@ ol.w3l-right li:before {
   background-color: var(--bg-color);
 }
 .w3l-content-4 .cont-ser-right-grids:hover{
-  background: var(--primary-light);
+  background: var(--secondary-color);
   transition: .3s;
   box-shadow: 0 25px 98px 0 rgba(0, 0, 0, 0.1);
   transform: translateY(-0.25rem);
