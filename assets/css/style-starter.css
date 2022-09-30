@@ -10488,7 +10488,7 @@ span.text {
   font-size: 18px; }
 
 .w3l-banner ul.follow-social li a:hover {
-  color: var(--primary-color); }
+  color: var(--primary); }
 
 .w3l-banner ul.follow-social li p {
   transform: rotate(90deg);
