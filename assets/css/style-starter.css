@@ -10018,8 +10018,9 @@ nav ul li a:hover {
 .modal__content a.navbar-brand {
   margin: 0;
   padding: 0;
-  font-size: 32px;
-  font-weight: 600;
+  
+  font-size: 30px;
+  font-weight: 501;
   text-transform: capitalize;
   color: var(--heading-color); }
 
@@ -11254,16 +11255,16 @@ button.owl-next {
   align-items: center; }
 
 .w3l-main-slider .banner-top1 {
-  background: url(../images/banner-01-1080x545.jpg) no-repeat center;
+  background: url(../images/banner-06-1080x545.jpg) no-repeat center;
   background-size: cover; }
 
 .w3l-main-slider .banner-top2 {
-  background: url(../images/banner-03-1080x545.jpg) no-repeat center;
+  background: url(../images/banner-07-1080x545.jpg) no-repeat center;
   background-size: cover; }
 
-.w3l-main-slider .banner-top3 {
+/* .w3l-main-slider .banner-top3 {
   background: url(../images/banner-01-1080x545.jpg) no-repeat center;
-  background-size: cover; }
+  background-size: cover; } */
 
 .w3l-main-slider .banner-view:before {
   content: "";
