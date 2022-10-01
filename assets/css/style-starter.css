@@ -510,8 +510,9 @@ pre {
 .row {
   display: flex;
   flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px; }
+  /* margin-right: -15px;
+  margin-left: -15px;  */
+}
 
 .no-gutters {
   margin-right: 0;
@@ -11524,11 +11525,11 @@ ol.w3l-right li:before {
   font-size: 20px;
   font-weight: 600; }
 
-  .w3l-news-sec .title-wrap:hover a h4.title {
+  .w3l-news-sec .news-img .title-wrap:hover a h4.title {
     color: var(--heading-color);
     font-size: 20px;
     font-weight: 600; }
-    .w3l-news-sec .title-wrap:hover p {
+    .w3l-news-sec .news-img .title-wrap:hover p {
       color: var(--bg-grey);
        }
 
