@@ -11469,7 +11469,7 @@ ol.w3l-right li:before {
 
 /*-- //homeblock2 --*/
 
-/* service slider */
+/* Notables Deals */
 .w3l-news-sec {
   background: var(--bg-grey); 
 }
@@ -11524,6 +11524,14 @@ ol.w3l-right li:before {
   font-size: 20px;
   font-weight: 600; }
 
+  .w3l-news-sec .title-wrap:hover a h4.title {
+    color: var(--heading-color);
+    font-size: 20px;
+    font-weight: 600; }
+    .w3l-news-sec .title-wrap:hover p {
+      color: var(--bg-grey);
+       }
+
 .w3l-news-sec .title-wrap a span.fa {
     color: var(--primary-color);}
     
@@ -11560,9 +11568,9 @@ ol.w3l-right li:before {
     width: 25px; } }
 
 /*-- //responsive --*/
-/* ///service slider */
+/* ///Notables Deals*/
 
-/* adoutsection  three block*/
+/* Advisory Services  three block*/
 .w3l-content-4 {
   background-color: #e6e6e7;       
 }
@@ -11612,7 +11620,7 @@ ol.w3l-right li:before {
   -o-transition: .3s ease;
 }
 .w3l-content-4 .cont-ser-right-grids:hover h6 a,.w3l-content-4 .cont-ser-right-grids:hover p {
-  color: var(--heading-color);
+  color: var(--bg-color);
 }
 @media only screen and (max-width: 992px) {
   .cont-ser-left {
@@ -11631,7 +11639,7 @@ ol.w3l-right li:before {
     padding-right: 0;
   }
 }
-/* //adoutsection  three block */
+/* //Advisory Services  three block */
 
 /*--/team--*/
 .w3l-team {
