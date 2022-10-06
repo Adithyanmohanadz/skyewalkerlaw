@@ -9551,6 +9551,7 @@ a.text-dark:hover, a.text-dark:focus {
   --primary-light: #fcf1e7;
   --secondary-color: #75a9d6;
   --font-color: #234969;
+  --banner: linear-gradient(to right, rgb(247 247 247), rgb(250 249 251 / 25%));
   --bg-color: #fff;
   --heading-color: #1f2044;
   --border-radius: 6px;
@@ -11732,3 +11733,43 @@ ol.w3l-right li:before {
 /* //read more arrow */
 
 /*--//team--*/
+
+
+/* banner */
+.w3l-banner-g {
+  /* margin-top: 90px; */
+  z-index: 0;
+  position: relative;
+  display: grid;
+  align-items: center;
+  background-size: cover;
+  -ms-background-size: cover;
+  background-image:  url(../images/sky/high-angle-shot-beautiful-cityscape-sunset-new-york-city-usa.jpg);
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 630px;
+}
+
+@media only screen and (max-width: 992px) {
+  
+
+  .w3l-banner-g {
+    min-height: 600px;
+  }
+}
+
+@media only screen and (max-width: 568px) {
+  .w3l-banner-g {
+    min-height: 500px;
+  }
+  
+}
+
+@media only screen and (max-width:375px) {
+  .w3l-banner {
+      min-height: 400px;
+  }
+}
+
+/* //banner */
