@@ -11738,13 +11738,14 @@ ol.w3l-right li:before {
 /* banner */
 .w3l-banner-g {
   /* margin-top: 90px; */
+  padding-top: 90px;
   z-index: 0;
   position: relative;
   display: grid;
   align-items: center;
   background-size: cover;
   -ms-background-size: cover;
-  background-image:  url(../images/sky/high-angle-shot-beautiful-cityscape-sunset-new-york-city-usa.jpg);
+  background-image:  url(../images/sky/all.jpg);
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-position: center;
   background-attachment: fixed;
