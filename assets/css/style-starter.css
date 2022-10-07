@@ -10765,7 +10765,8 @@ span.text {
 
 .w3l-contactblock .contact-heading {
   max-width: 720px;
-  margin: auto; }
+  /* margin: auto; */
+ }
 
 .w3l-contactblock ul.address a {
   font-size: 26px;
@@ -11517,7 +11518,7 @@ ol.w3l-right li:before {
   z-index: 9; }
 
 .w3l-news-sec .news-img:hover .title-wrap {
-  transform: translateY(-35px);
+  transform: translateY(-30px);
   transition: .3s ease;
   background-color: var(--secondary-color);
   -webkit-transition: .3s ease;
@@ -11780,3 +11781,59 @@ ol.w3l-right li:before {
 }
 
 /* //banner */
+
+/* nav bar option click responsive */
+
+/* max-width 991px */
+
+@media only screen and (max-width:991px) {
+  .our-firm{
+    margin-top: 30px;
+  }
+}
+
+@media only screen and (max-width:991px) {
+  .legal-services{
+    margin-top: 5px;
+  }
+}
+
+@media only screen and (max-width:991px) {
+  .notable-deals{
+    margin-top: 30px;
+  }
+}
+
+@media only screen and (max-width:991px) {
+  .contact-heading{
+    margin-top: 25px;
+  }
+}
+
+/* max-width 767px */
+
+@media only screen and (max-width:767px) {
+  .our-firm{
+    margin-top: 45px;
+  }
+}
+
+@media only screen and (max-width:767px) {
+  .legal-services{
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (max-width:767px) {
+  .notable-deals{
+    margin-top: 45px;
+  }
+}
+
+@media only screen and (max-width:767px) {
+  .contact-heading{
+    margin-top: 40px;
+  }
+}
+
+/* //nav bar option click responsive */
