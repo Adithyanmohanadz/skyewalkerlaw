@@ -10438,6 +10438,11 @@ span.text {
   .w3l-banner h1.title {
     font-size: 26px; } }
 
+    @media (max-width: 376px) {
+      .w3l-banner h1.title {
+        padding-top: 130px;
+        font-size: 26px; } }    
+
 .w3l-banner .text-js {
   opacity: 0; }
 
