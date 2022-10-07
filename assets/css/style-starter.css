@@ -10763,10 +10763,10 @@ span.text {
   grid-template-columns: 1fr 1fr;
   grid-gap: 25px; }
 
-.w3l-contactblock .contact-heading {
+/* .w3l-contactblock .contact-heading {
   max-width: 720px;
-  /* margin: auto; */
- }
+  margin: auto;
+ } */
 
 .w3l-contactblock ul.address a {
   font-size: 26px;
