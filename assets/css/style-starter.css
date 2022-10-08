@@ -11837,3 +11837,18 @@ ol.w3l-right li:before {
 }
 
 /* //nav bar option click responsive */
+
+
+/* place */
+
+.place:nth-child(2){
+  margin: auto;
+  padding: auto;
+  
+}
+
+/* @media only screen and (max-width:432px){
+  .place:nth-child(2){
+    margin: auto;
+  }
+} */
