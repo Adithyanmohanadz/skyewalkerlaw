@@ -15643,3 +15643,7 @@ ol.right li:before {
   width: 25px;
   margin-bottom: 10px;
 }
+
+.swfont{
+  font-family: 'Georgia', sans-serif;
+  }
