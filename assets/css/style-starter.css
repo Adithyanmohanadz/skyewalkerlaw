@@ -15643,7 +15643,16 @@ ol.right li:before {
   width: 25px;
   margin-bottom: 10px;
 }
-
+/* client font */
 .swfont{
   font-family: 'Georgia', sans-serif;
   }
+  /* client font */
+
+  /* service point under 991px size one div hidden  */
+  @media only screen and (max-width:991px) {
+    .service-hide-col{
+display: none;
+    }
+  }
+   /* service point under 991px size one div hidden  */
