@@ -11517,7 +11517,7 @@ ol.right li:before {
  }
 
 .news-sec .owl-theme .owl-dots .owl-dot span {
-  background: var(--font-color); }
+  background: var(--secondary-color); }
 
 .news-sec .owl-theme .owl-dots .owl-dot.active span, .news-sec .owl-theme .owl-dots .owl-dot:hover span {
   background: var(--primary-color); }
@@ -11527,7 +11527,8 @@ ol.right li:before {
 }
 .news-sec .title-wrap {
   background-color: var(--bg-color);
-  width: calc(100% - 50px);
+  width: calc(100% - 30px);
+  min-height: 290px;
   position: relative;
   left: 0;
   right: 0;
@@ -11554,9 +11555,12 @@ ol.right li:before {
   box-shadow: 0 25px 98px 0 rgba(0, 0, 0, 0.03); }
 
 .news-sec .title-wrap a h4.title {
+  margin-bottom: 10px;
   color: var(--heading-color);
   font-size: 20px;
   font-weight: 600; }
+
+  
 
   .news-sec .news-img .title-wrap:hover a h4.title {
     color: var(--heading-color);
